@@ -1,0 +1,27 @@
+.date-accordion {
+    width: 100%;
+}
+
+.date-accordion-item {
+    margin: 10px 0;
+}
+
+.date-accordion-toggle {
+    display: none;
+}
+
+.date-accordion-title {
+    background: #007BFF;
+    color: #fff;
+    padding: 10px;
+    cursor: pointer;
+}
+
+.date-accordion-content {
+    display: none;
+    padding: 10px;
+}
+
+.date-accordion-toggle:checked+.date-accordion-title+.date-accordion-content {
+    display: block;
+}
